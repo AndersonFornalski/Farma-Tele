@@ -19,13 +19,13 @@ body{
 	font-weight: bold;
 }
 .navbar a:hover{
-	font-size: 18px;
+	font-size: 19px;
 	background-color: #48D1CC;
 	color:white;
 	font-weight: bold;
 }
 .nav-link#home2{
-	font-size: 18px;
+	font-size: 19px;
 	color: white;
 	text-align: center;
 }
@@ -34,4 +34,18 @@ body{
 	-moz-box-shadow: -1px 9px 40px -12px rgba(0,0,0,0.75);
 	 box-shadow: -1px 9px 40px -12px rgba(0,0,0,0.75);
 
+}
+.card:hover{
+	transform: scale(1.2);
+}
+.form-control{
+	min-width: 450px;
+}
+.scrollable{
+	height: 800px;
+	overflow: scroll;
+
+}
+.footer{
+	background-color: silver;
 }
